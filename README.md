@@ -4,4 +4,6 @@ This is a Project Generic Framework
 1. 设置好TabBarController
 2. 设置好Navigation pop
 3. 自定义TabBar
-4. 如果TabBarItem数量不是3个的时候，修改kTabBarItemCount这个宏就可以了 
+4. 不需要中间的自定义btn, 只需要注释掉MainTabBarController类中两行代码
+tabBar.customDelegate = self;
+[self setValue:tabBar forKey:@"tabBar"];
