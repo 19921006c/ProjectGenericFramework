@@ -29,13 +29,15 @@
     [self addChildVc:self.profileVc title:@"我" image:@"tabbar_profile" selectedImage:@"tabbar_profile_selected"];
     
     MainTabBarControllerTabBar *tabBar = [[MainTabBarControllerTabBar alloc] init];
+#warning 一下两行代码加载，中间加号按钮, 如果不需要中间按钮, 注释一下两行代码
+    /** 自定义加号btn点击事件代理 */
     tabBar.customDelegate = self;
-    /** KVC */
+    /** KVC设置中间加号btn */
     [self setValue:tabBar forKey:@"tabBar"];
 }
 
 #pragma mark - delegate
-// MainTabBarControllerTabBarDelegate 加号按钮代理
+// MainTabBarControllerTabBarDelegate 加号按钮点击事件代理方法
 - (void)tabBarDidClickPlusButton:(MainTabBarControllerTabBar *)tabBar
 {
     PublishViewController *vc = [[PublishViewController alloc] init];
@@ -44,6 +46,12 @@
 }
 #pragma mark - event response
 #pragma mark - private methods
+/**
+ *  @param childVc  :   要添加的子控制器
+ *  @param title    :   navigation bar title 和 tabbar item title
+ *  @param image    :   tabbar item normal image
+ *  @param selectedImage    :   高亮图片
+ */
 - (void)addChildVc:(UIViewController *)childVc title:(NSString *)title image:(NSString *)image selectedImage:(NSString *)selectedImage
 {
     

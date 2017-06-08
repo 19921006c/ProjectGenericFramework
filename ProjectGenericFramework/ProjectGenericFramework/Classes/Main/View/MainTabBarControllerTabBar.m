@@ -5,7 +5,6 @@
 //  Created by joe on 2016/12/14.
 //  Copyright © 2016年 joe. All rights reserved.
 //
-#define kTabBarItemCount 3
 
 #import "MainTabBarControllerTabBar.h"
 #import "MainTabBarControllerMidButtonView.h"
@@ -21,7 +20,13 @@
 {
     [super layoutSubviews];
     
-    NSInteger count = kTabBarItemCount;
+    
+    NSInteger count = 1;
+    for (UIView *view in self.subviews) {
+        if ([NSStringFromClass([view class]) isEqualToString:@"UITabBarButton"]) {
+            count ++;
+        }
+    }
     [self addSubview:self.midBtnView];
     // 1.设置加号按钮的位置
     CGFloat midBtnViewWidth = self.width / count;
