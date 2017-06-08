@@ -39,6 +39,7 @@
 - (void)tabBarDidClickPlusButton:(MainTabBarControllerTabBar *)tabBar
 {
     PublishViewController *vc = [[PublishViewController alloc] init];
+    vc.view.backgroundColor = [UIColor redColor];
     [self presentViewController:vc animated:YES completion:nil];
 }
 #pragma mark - event response

@@ -46,6 +46,10 @@
 - (void)coverBtnWithTouchUpInside
 {
     [self changeBtnToNormal];
+    
+    if ([self.delegate respondsToSelector:@selector(didSelectedMidBtn)]) {
+        [self.delegate didSelectedMidBtn];
+    }
 }
 - (void)coverBtnWithTouchDragExit
 {

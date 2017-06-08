@@ -9,7 +9,7 @@
 
 #import "MainTabBarControllerTabBar.h"
 #import "MainTabBarControllerMidButtonView.h"
-@interface MainTabBarControllerTabBar ()
+@interface MainTabBarControllerTabBar ()<MainTabBarControllerMidButtonViewDelegate>
 //@property (nonatomic, strong) UIButton *plusBtn;
 @property (nonatomic, strong) MainTabBarControllerMidButtonView *midBtnView;
 @end
@@ -49,22 +49,20 @@
     }
 }
 #pragma mark - delegate
-#pragma mark - event response
-/**
- *  加号按钮点击
- */
-- (void)plusBtnAction
+- (void)didSelectedMidBtn
 {
     if ([self.delegate respondsToSelector:@selector(tabBarDidClickPlusButton:)]) {
         [self.customDelegate tabBarDidClickPlusButton:self];
     }
 }
+#pragma mark - event response
 #pragma mark - private methods
 #pragma mark - getters and setters
 - (MainTabBarControllerMidButtonView *)midBtnView
 {
     if (_midBtnView == nil) {
         _midBtnView = [[MainTabBarControllerMidButtonView alloc] init];
+        _midBtnView.delegate = self;
     }
     return _midBtnView;
 }

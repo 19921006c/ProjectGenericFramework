@@ -8,6 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
+@protocol MainTabBarControllerMidButtonViewDelegate <NSObject>
+
+@optional
+- (void)didSelectedMidBtn;
+
+@end
 @interface MainTabBarControllerMidButtonView : UIView
+@property (nonatomic, weak) id<MainTabBarControllerMidButtonViewDelegate> delegate;
 
 @end
