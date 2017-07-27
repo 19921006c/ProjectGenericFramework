@@ -8,11 +8,12 @@
 
 #import "AppDelegate+Service.h"
 #import "MainTabBarController.h"
+#import "ADView.h"
 
 @implementation AppDelegate (Service)
 
 - (void)initWindow {
-    self.window = [[UIWindow alloc] initWithFrame:kMainScreenBounds];
+    self.window = [[UIWindow alloc] initWithFrame:kScreenBounds];
     
     self.window.backgroundColor = [UIColor whiteColor];
     
@@ -22,6 +23,8 @@
 }
 
 - (void)initAd {
-    
+    ADView *adView = [[ADView alloc] initWithFrame:kScreenBounds tapBlock:^{
+        
+    }];
 }
 @end

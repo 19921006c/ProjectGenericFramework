@@ -5,12 +5,19 @@
 //  Created by joe on 2016/12/8.
 //  Copyright © 2016年 joe. All rights reserved.
 //
+//获取系统对象
+#define kApplication        [UIApplication sharedApplication]
+#define kAppWindow          [UIApplication sharedApplication].delegate.window
+#define kAppDelegate        [AppDelegate shareAppDelegate]
+#define kRootViewController [UIApplication sharedApplication].delegate.window.rootViewController
+#define kUserDefaults       [NSUserDefaults standardUserDefaults]
+#define kNotificationCenter [NSNotificationCenter defaultCenter]
 
 /** 定义常量 */
 #ifndef ConstDefine_h
 #define ConstDefine_h
 
-#define kMainScreenBounds [UIScreen mainScreen].bounds
+#define kScreenBounds [UIScreen mainScreen].bounds
 #define kScreenWidth kMainScreenBounds.size.width
 #define kScreenHeight kMainScreenBounds.size.height
 #define kNavigationBarHeight 64

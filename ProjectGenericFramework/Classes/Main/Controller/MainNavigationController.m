@@ -8,7 +8,7 @@
 
 #import "MainNavigationController.h"
 
-@interface MainNavigationController ()<UINavigationControllerDelegate>
+@interface MainNavigationController ()<UINavigationControllerDelegate, UIGestureRecognizerDelegate>
 @end
 
 @implementation MainNavigationController

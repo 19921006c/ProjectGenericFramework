@@ -23,6 +23,7 @@
 		D8214C141E01378B0021A611 /* MainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8214C111E01378B0021A611 /* MainTabBarController.m */; };
 		D8214C151E01378B0021A611 /* MainNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8214C131E01378B0021A611 /* MainNavigationController.m */; };
 		D8214C181E0137A70021A611 /* MainTabBarControllerTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = D8214C171E0137A70021A611 /* MainTabBarControllerTabBar.m */; };
+		D82C40671F2834D000633A57 /* ADView.m in Sources */ = {isa = PBXBuildFile; fileRef = D82C40661F2834D000633A57 /* ADView.m */; };
 		D8552E121E0227760094FF44 /* MainTabBarControllerMidButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = D8552E111E0227760094FF44 /* MainTabBarControllerMidButtonView.m */; };
 /* End PBXBuildFile section */
 
@@ -81,6 +82,8 @@
 		D8214C131E01378B0021A611 /* MainNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainNavigationController.m; sourceTree = "<group>"; };
 		D8214C161E0137A70021A611 /* MainTabBarControllerTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBarControllerTabBar.h; sourceTree = "<group>"; };
 		D8214C171E0137A70021A611 /* MainTabBarControllerTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabBarControllerTabBar.m; sourceTree = "<group>"; };
+		D82C40651F2834D000633A57 /* ADView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADView.h; sourceTree = "<group>"; };
+		D82C40661F2834D000633A57 /* ADView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADView.m; sourceTree = "<group>"; };
 		D8552E101E0227760094FF44 /* MainTabBarControllerMidButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBarControllerMidButtonView.h; sourceTree = "<group>"; };
 		D8552E111E0227760094FF44 /* MainTabBarControllerMidButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabBarControllerMidButtonView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -123,6 +126,7 @@
 		D81CC0101F26E6860014F10C /* utils */ = {
 			isa = PBXGroup;
 			children = (
+				D82C40641F2834B800633A57 /* ADView */,
 			);
 			path = utils;
 			sourceTree = "<group>";
@@ -371,6 +375,15 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		D82C40641F2834B800633A57 /* ADView */ = {
+			isa = PBXGroup;
+			children = (
+				D82C40651F2834D000633A57 /* ADView.h */,
+				D82C40661F2834D000633A57 /* ADView.m */,
+			);
+			path = ADView;
+			sourceTree = "<group>";
+		};
 		D8BDBE717966BC5C0D5FE0F9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -572,6 +585,7 @@
 				D8214BFB1E012D150021A611 /* HomeViewController.m in Sources */,
 				D8214B9E1E012AF30021A611 /* main.m in Sources */,
 				D81CC00F1F26E4630014F10C /* AppDelegate+Service.m in Sources */,
+				D82C40671F2834D000633A57 /* ADView.m in Sources */,
 				D8214C0C1E012D9E0021A611 /* PublishViewController.m in Sources */,
 				D8552E121E0227760094FF44 /* MainTabBarControllerMidButtonView.m in Sources */,
 				D8214C0F1E012FFB0021A611 /* UIView+WY.m in Sources */,
