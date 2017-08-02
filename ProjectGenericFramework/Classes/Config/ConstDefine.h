@@ -18,8 +18,8 @@
 #define ConstDefine_h
 
 #define kScreenBounds [UIScreen mainScreen].bounds
-#define kScreenWidth kMainScreenBounds.size.width
-#define kScreenHeight kMainScreenBounds.size.height
+#define kScreenWidth kScreenBounds.size.width
+#define kScreenHeight kScreenBounds.size.height
 #define kNavigationBarHeight 64
 #define kTabBarHeight 49
 #define kTabBarBackgroundColor [UIColor colorWithHexString:@"#60C2EB"]

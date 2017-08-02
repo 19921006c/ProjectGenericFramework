@@ -24,6 +24,12 @@
 		D8214C151E01378B0021A611 /* MainNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8214C131E01378B0021A611 /* MainNavigationController.m */; };
 		D8214C181E0137A70021A611 /* MainTabBarControllerTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = D8214C171E0137A70021A611 /* MainTabBarControllerTabBar.m */; };
 		D82C40671F2834D000633A57 /* ADView.m in Sources */ = {isa = PBXBuildFile; fileRef = D82C40661F2834D000633A57 /* ADView.m */; };
+		D84DEDBF1F317AF400AF18EB /* CustomAFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D84DEDBE1F317AF400AF18EB /* CustomAFHTTPSessionManager.m */; };
+		D84DEDC21F317C6500AF18EB /* BaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D84DEDC11F317C6500AF18EB /* BaseRequest.m */; };
+		D84DEDC51F317DA600AF18EB /* NetWorkAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = D84DEDC41F317DA600AF18EB /* NetWorkAgent.m */; };
+		D84DEDC81F317E0D00AF18EB /* NetWorkConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = D84DEDC71F317E0D00AF18EB /* NetWorkConfig.m */; };
+		D84DEDD01F31814100AF18EB /* Md5.m in Sources */ = {isa = PBXBuildFile; fileRef = D84DEDCD1F31814100AF18EB /* Md5.m */; };
+		D84DEDD11F31814100AF18EB /* RSA.m in Sources */ = {isa = PBXBuildFile; fileRef = D84DEDCF1F31814100AF18EB /* RSA.m */; };
 		D8552E121E0227760094FF44 /* MainTabBarControllerMidButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = D8552E111E0227760094FF44 /* MainTabBarControllerMidButtonView.m */; };
 /* End PBXBuildFile section */
 
@@ -84,6 +90,19 @@
 		D8214C171E0137A70021A611 /* MainTabBarControllerTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabBarControllerTabBar.m; sourceTree = "<group>"; };
 		D82C40651F2834D000633A57 /* ADView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADView.h; sourceTree = "<group>"; };
 		D82C40661F2834D000633A57 /* ADView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADView.m; sourceTree = "<group>"; };
+		D84DEDBD1F317AF400AF18EB /* CustomAFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomAFHTTPSessionManager.h; sourceTree = "<group>"; };
+		D84DEDBE1F317AF400AF18EB /* CustomAFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomAFHTTPSessionManager.m; sourceTree = "<group>"; };
+		D84DEDC01F317C6500AF18EB /* BaseRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseRequest.h; sourceTree = "<group>"; };
+		D84DEDC11F317C6500AF18EB /* BaseRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseRequest.m; sourceTree = "<group>"; };
+		D84DEDC31F317DA600AF18EB /* NetWorkAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetWorkAgent.h; sourceTree = "<group>"; };
+		D84DEDC41F317DA600AF18EB /* NetWorkAgent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetWorkAgent.m; sourceTree = "<group>"; };
+		D84DEDC61F317E0D00AF18EB /* NetWorkConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetWorkConfig.h; sourceTree = "<group>"; };
+		D84DEDC71F317E0D00AF18EB /* NetWorkConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetWorkConfig.m; sourceTree = "<group>"; };
+		D84DEDC91F3180CA00AF18EB /* URL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URL.h; sourceTree = "<group>"; };
+		D84DEDCC1F31814100AF18EB /* Md5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Md5.h; sourceTree = "<group>"; };
+		D84DEDCD1F31814100AF18EB /* Md5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Md5.m; sourceTree = "<group>"; };
+		D84DEDCE1F31814100AF18EB /* RSA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSA.h; sourceTree = "<group>"; };
+		D84DEDCF1F31814100AF18EB /* RSA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSA.m; sourceTree = "<group>"; };
 		D8552E101E0227760094FF44 /* MainTabBarControllerMidButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBarControllerMidButtonView.h; sourceTree = "<group>"; };
 		D8552E111E0227760094FF44 /* MainTabBarControllerMidButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabBarControllerMidButtonView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -123,11 +142,13 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		D81CC0101F26E6860014F10C /* utils */ = {
+		D81CC0101F26E6860014F10C /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				D84DEDBC1F317ACE00AF18EB /* NetworkTool */,
 				D82C40641F2834B800633A57 /* ADView */,
 			);
+			name = Utils;
 			path = utils;
 			sourceTree = "<group>";
 		};
@@ -160,7 +181,7 @@
 				D8214BA01E012AF30021A611 /* AppDelegate.m */,
 				D81CC00D1F26E4630014F10C /* AppDelegate+Service.h */,
 				D81CC00E1F26E4630014F10C /* AppDelegate+Service.m */,
-				D81CC0101F26E6860014F10C /* utils */,
+				D81CC0101F26E6860014F10C /* Utils */,
 				D8214C061E012D8C0021A611 /* Publish */,
 				D8214BE61E012CBA0021A611 /* Main */,
 				D8214BDC1E012BFA0021A611 /* Config */,
@@ -384,6 +405,26 @@
 			path = ADView;
 			sourceTree = "<group>";
 		};
+		D84DEDBC1F317ACE00AF18EB /* NetworkTool */ = {
+			isa = PBXGroup;
+			children = (
+				D84DEDBD1F317AF400AF18EB /* CustomAFHTTPSessionManager.h */,
+				D84DEDBE1F317AF400AF18EB /* CustomAFHTTPSessionManager.m */,
+				D84DEDC01F317C6500AF18EB /* BaseRequest.h */,
+				D84DEDC11F317C6500AF18EB /* BaseRequest.m */,
+				D84DEDC31F317DA600AF18EB /* NetWorkAgent.h */,
+				D84DEDC41F317DA600AF18EB /* NetWorkAgent.m */,
+				D84DEDC61F317E0D00AF18EB /* NetWorkConfig.h */,
+				D84DEDC71F317E0D00AF18EB /* NetWorkConfig.m */,
+				D84DEDC91F3180CA00AF18EB /* URL.h */,
+				D84DEDCC1F31814100AF18EB /* Md5.h */,
+				D84DEDCD1F31814100AF18EB /* Md5.m */,
+				D84DEDCE1F31814100AF18EB /* RSA.h */,
+				D84DEDCF1F31814100AF18EB /* RSA.m */,
+			);
+			path = NetworkTool;
+			sourceTree = "<group>";
+		};
 		D8BDBE717966BC5C0D5FE0F9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -576,12 +617,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D84DEDD01F31814100AF18EB /* Md5.m in Sources */,
+				D84DEDBF1F317AF400AF18EB /* CustomAFHTTPSessionManager.m in Sources */,
 				D8214BA11E012AF30021A611 /* AppDelegate.m in Sources */,
+				D84DEDD11F31814100AF18EB /* RSA.m in Sources */,
+				D84DEDC51F317DA600AF18EB /* NetWorkAgent.m in Sources */,
 				D8214C151E01378B0021A611 /* MainNavigationController.m in Sources */,
 				D8214BE51E012C350021A611 /* UIBarButtonItem+Custom.m in Sources */,
 				D8214BFE1E012D240021A611 /* ProfileViewController.m in Sources */,
 				D8214C141E01378B0021A611 /* MainTabBarController.m in Sources */,
 				D8214C181E0137A70021A611 /* MainTabBarControllerTabBar.m in Sources */,
+				D84DEDC21F317C6500AF18EB /* BaseRequest.m in Sources */,
 				D8214BFB1E012D150021A611 /* HomeViewController.m in Sources */,
 				D8214B9E1E012AF30021A611 /* main.m in Sources */,
 				D81CC00F1F26E4630014F10C /* AppDelegate+Service.m in Sources */,
@@ -589,6 +635,7 @@
 				D8214C0C1E012D9E0021A611 /* PublishViewController.m in Sources */,
 				D8552E121E0227760094FF44 /* MainTabBarControllerMidButtonView.m in Sources */,
 				D8214C0F1E012FFB0021A611 /* UIView+WY.m in Sources */,
+				D84DEDC81F317E0D00AF18EB /* NetWorkConfig.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
